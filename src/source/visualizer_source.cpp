@@ -387,7 +387,7 @@ obs_properties_t *get_properties_for_visualiser(void *data)
     /* This setting doesn't really do anything, it's used in cli-visualizer to determine
      * the fallow of colors inside bins
      */
-    obs_property_set_visible(obs_properties_add_float_slider(props, S_FALLOFF, T_FALLOFF, 0, 2, 0.01), false);
+    obs_property_set_visible(obs_properties_add_float_slider(props, S_FALLOFF, T_FALLOFF, 0, 2, 0.01), true);
 
     obs_property_list_add_string(src, T_AUDIO_SOURCE_NONE, defaults::audio_source);
 #ifdef LINUX
