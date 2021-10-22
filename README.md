@@ -1,4 +1,7 @@
+## Spectralizer
+![nightly](https://github.com/univrsal/spectralizer/workflows/nightly/badge.svg)
 
-# Haikus for Codespaces
+Audio visualization for [obs-studio](https://obsproject.com/) using [fftw](http://fftw.org/), based on [cli-visualizer](https://github.com/dpayne/cli-visualizer)
 
-This is a quick node project template for demoing Codespaces. It is based off of the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world). It's great!!!
+Allows for vizualisation of [MPD](https://www.musicpd.org/) and internal obs audio sources.
+![demo](https://i.imgur.com/3QyBqgb.png)
