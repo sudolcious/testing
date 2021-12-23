@@ -1,0 +1,83 @@
+
+.edit {background-image : linear-gradient(1deg, rgb(233, 12, 53) 100%, rgb(168, 45, 47) 48%)}
+
+.controller.ds4.white {
+    background-color : rgba(89, 212, 115, 0.75) !important;
+    text-align : left;
+    background-image : linear-gradient(1deg, rgb(233, 12, 53) 100%, rgb(168, 45, 47) 48%) !important;
+}
+
+
+.ds4 .triggers{
+    background-image: linear-gradient(#010b95 , #6999ff);
+
+    width: 300px;
+    position: relative;
+    margin: 0 auto 0 auto;
+	top: 150px;
+	left: 0px;
+}
+.ds4 .bumpers{
+    width: 300px;
+    position: relative;
+    margin: 0 auto 0 auto;
+	top: 150px;
+	left: 0px;
+}
+
+.ds4 .arrows{
+    background-image: linear-gradient(#010b95 , #6999ff);
+    width: 68px;
+	position: relative;
+    margin: 0 auto 0 auto;
+	left: 0px;
+}
+
+.ds4.white .stick {filter: hue-rotate(115deg);}
+.ds4.white .face.pressed {
+
+    background-position-y: 0;
+}
+
+.ds4.white .stick {background-image: linear-gradient(#010b95 , #6999ff) !important;}
+ 
+
+
+.ds4.white .stick.pressed {
+
+    background-position-x: 0 !important;
+}
+
+.ds4.white .button {
+    background-image: linear-gradient(#010b95 , #6999ff);
+ 
+}
+.ds4.white .button.pressed {
+    filter: hue-rotate(120deg) contrast(0.8);
+}
+
+.ds4.white .start {
+    transform: translate(0.5px);
+}
+.ds4.white .back {
+    transform: translate(-0.5px);
+}
+.ds4.white .start.pressed, .ds4 .back.pressed {
+    background: rgb(96, 97, 163);
+    border-radius: 50px;
+}
+
+.ds4.white .touchpad.pressed {
+    background: url('https://gamepadviewer.com/ps4-assets/touchpad.svgz');
+    filter: mone;
+}
+
+.ds4.white .bumper.pressed, .ds4.white .trigger {
+    filter: mone;
+}
+
+.ds4 .meta.pressed {
+    background: rgba(34, 157, 214, 0.6);
+    border-radius: 50%;
+    transform: translateY(1px);
+}
