@@ -3,7 +3,9 @@
 
 }
 
-.edit {background-image : linear-gradient(1deg, rgb(233, 12, 53) 100%, rgb(168, 45, 47) 48%)}
+.edit {background-image : linear-gradient(1deg, rgb(233, 12, 53) 100%, rgb(168, 45, 47) 48%);  background-color : rgba(89, 212, 115, 0.75) !important; 
+
+}
 
 .controller.ds4.white {
     background-color : rgba(89, 212, 115, 0.75) !important;
