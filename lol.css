@@ -1,7 +1,7 @@
-.controller.ds4.white {background-color : rgb(230, 96, 96); background-image : linear-gradient(90deg, rgb(26, 115, 232), rgb(81, 45, 168) 50%);}
+.controller.ds4.white {background-color : rgb(230, 96, 96); background-image : linear-gradient(90deg, rgb(26, 115, 232), rgb(81, 45, 168) 50%) !important;}
 .ds4.white .stick {background-image: linear-gradient(#010b95 , #6999ff) !important;}
-.ds4.white .stick {filter: hue-rotate(200deg);}
-.ds4.white .dpad {filter: hue-rotate(200deg);}
+.ds4.white .stick {filter: hue-rotate(200deg) !important;}
+.ds4.white .dpad {filter: hue-rotate(200deg) !important;}
 
 .edit {background-image : linear-gradient(1deg, rgb(233, 12, 53) 100%, rgb(168, 45, 47) 48%);  background-color : rgba(89, 212, 115, 0.75); }
 
@@ -78,3 +78,8 @@
     border-radius: 50%;
     transform: translateY(1px);
 }
+
+.controller.ds4.white {background-color : rgb(230, 96, 96); background-image : linear-gradient(90deg, rgb(26, 115, 232), rgb(81, 45, 168) 50%) !important;}
+.ds4.white .stick {background-image: linear-gradient(#010b95 , #6999ff) !important;}
+.ds4.white .stick {filter: hue-rotate(200deg) !important;}
+.ds4.white .dpad {filter: hue-rotate(200deg) !important;}
